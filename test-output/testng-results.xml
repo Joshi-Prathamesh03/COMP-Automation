@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-27T19:19:06 IST" name="Suite" finished-at="2024-08-27T19:19:15 IST" duration-ms="9081">
+    <groups>
+    </groups>
+    <test started-at="2024-08-27T19:19:06 IST" name="Test" finished-at="2024-08-27T19:19:15 IST" duration-ms="9081">
+      <class name="TestCases.createCaseTest">
+        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.createCaseTest@5af3afd9]" started-at="2024-08-27T19:19:06 IST" name="hitAppUrl" finished-at="2024-08-27T19:19:14 IST" duration-ms="7728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitAppUrl -->
+        <test-method signature="newCaseCreation()[pri:0, instance:TestCases.createCaseTest@5af3afd9]" started-at="2024-08-27T19:19:14 IST" name="newCaseCreation" finished-at="2024-08-27T19:19:15 IST" duration-ms="1222" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCaseCreation -->
+        <test-method is-config="true" signature="instanceClose()[pri:0, instance:TestCases.createCaseTest@5af3afd9]" started-at="2024-08-27T19:19:15 IST" name="instanceClose" finished-at="2024-08-27T19:19:15 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceClose -->
+      </class> <!-- TestCases.createCaseTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
