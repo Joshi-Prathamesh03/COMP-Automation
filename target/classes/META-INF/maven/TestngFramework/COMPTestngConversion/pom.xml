@@ -71,8 +71,9 @@
 				</pluginManagement>
 			</build>
 		</profile>
+		
 		<profile>
-			<id>CasesAllocation</id>
+			<id>AllocationOfCase</id>
 			<build>
 				<pluginManagement><!-- lock down plugins versions to avoid using
 				Maven
