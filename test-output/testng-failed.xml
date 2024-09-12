@@ -7,7 +7,6 @@
         <methods>
           <include name="hitAppUrl"/>
           <include name="instanceClose"/>
-          <include name="duplicateVIN"/>
           <include name="newCaseCreation"/>
         </methods>
       </class> <!-- TestCases.createCaseTest -->

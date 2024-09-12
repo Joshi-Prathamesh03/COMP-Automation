@@ -11,7 +11,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
-import org.testng.annotations.Test;
+//import org.testng.annotations.Test;
 
 public class addNewCase {
 
@@ -30,12 +30,12 @@ public class addNewCase {
 	String[] mobile = { "9186527410", "9186527411", "9186527412", "9186527413", "9186527414", "9186527415",
 			"9186527416", "9186527417", "9186527418", "9186527419", "91865274120", "9186527421", "9186527422" };
 
-	String[] VIN = { "KM8JT3AF4FU002640", "KM8JT3AF4FU002642", "KM8JT3AF4FU002643", "KM8JT3AF4FU002644",
-			"KM8JT3AF4FU002645", "KM8JT3AF4FU002646", "KM8JT3AF4FU002647", "KM8JT3AF4FU002648", "KM8JT3AF4FU002649",
-			"KM8JT3AF4FU002650" };
+	String[] VIN = { "KM8JT3AF4FU002650", "KM8JT3AF4FU002652", "KM8JT3AF4FU002653", "KM8JT3AF4FU002654",
+			"KM8JT3AF4FU002655", "KM8JT3AF4FU002656", "KM8JT3AF4FU002657", "KM8JT3AF4FU002658", "KM8JT3AF4FU002659",
+			"KM8JT3AF4FU002660" };
 
-	String[] engineNumber = { "KM8JT3AF4F11", "KM8JT3AF4F12", "KM8JT3AF4F13", "KM8JT3AF4F14", "KM8JT3AF4F15",
-			"KM8JT3AF4F16", "KM8JT3AF4F17", "KM8JT3AF4F18", "KM8JT3AF4F19", "KM8JT3AF4F20" };
+	String[] engineNumber = { "KJ8JT3AF4F11", "KJ8JT3AF4F12", "KJ8JT3AF4F13", "KJ8JT3AF4F14", "KJ8JT3AF4F15",
+			"KJ8JT3AF4F16", "KJ8JT3AF4F17", "KJ8JT3AF4F18", "KJ8JT3AF4F19", "KJ8JT3AF4F20" };
 
 	String[] regNumber = { "MH12TY1111", "MH12TY1112", "MH12TY1113", "MH12TY1114", "MH12TY1115", "MH12TY1116",
 			"MH12TY1117", "MH12TY1118", "MH12TY1119", "MH12TY1120", "MH12TY1121" };
@@ -47,7 +47,7 @@ public class addNewCase {
 	}
 
 	// Click on Add New Case tab in the right navigation panel
-	@FindBy(css = "span[title='Add New Case")
+	@FindBy(css = "span[title='Add New Case]")
 	WebElement addNewCaseNavButton;
 
 	@FindBy(name = "case")
@@ -261,14 +261,13 @@ public class addNewCase {
 		custLeadStatus.selectByValue("Open");
 
 		isCaseAssignedRadioButton.click();
-		
+
 		Select caseAssignee = new Select(assignee);
-		caseAssignee.selectByValue("Sheetal Thapa");
-		
+		caseAssignee.selectByIndex(2);
+
 		Thread.sleep(5000);
 		completeTaskBtn.click();
-		
-		
+
 	}
 
 }

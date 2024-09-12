@@ -1,5 +1,9 @@
 package pageObjectsFile;
 
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -25,8 +29,13 @@ public class login {
 	@FindBy(name = "loginButton")
 	WebElement loginBtn;
 
-	public void hitURL() {
-		driver.get("https://testapp.crystalauto.co.in");
+	public void hitURL() throws IOException {
+		Properties prop = new Properties();
+		FileInputStream FIS = new FileInputStream(
+				System.getProperty("user.dir") + "\\\\src\\\\main\\\\java\\\\Resources\\\\GlobalData.properties");
+		prop.load(FIS);
+		String URL = prop.getProperty("URL");
+		driver.get(URL);
 	}
 
 	public void loginIntoApp(String userMobNumber, String userPassword) {

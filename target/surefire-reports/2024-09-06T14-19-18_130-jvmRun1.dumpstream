@@ -1,0 +1,34 @@
+# Created at 2024-09-06T14:19:18.739
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.base/java.io.DataInputStream.readInt(DataInputStream.java:386)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.base/java.lang.Thread.run(Thread.java:1623)
+
+
+# Created at 2024-09-06T14:19:20.717
+Unexpected IOException with stream: Sep 06, 2024 2:19:20 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 128, returning the closest version; found: 125; Please update to a Selenium version that supports CDP version 128
+
+
+# Created at 2024-09-06T14:19:20.822
+Unexpected IOException: 8,1,TestCases.createCaseTest,hitAppUrl(TestCases.createCaseTest),null,null,null,null,createCaseTest>BaseTest.hitAppUrl:58 \00BB NullPointer,java.lang.NullPointerException\000A
+
+
+# Created at 2024-09-06T14:19:20.827
+Unexpected IOException: 5,1,TestCases.createCaseTest,newCaseCreation(TestCases.createCaseTest),TestCases.createCaseTest,null,null
+
+
+# Created at 2024-09-06T14:19:20.828
+Unexpected IOException: 9,1,TestCases.createCaseTest,newCaseCreation(TestCases.createCaseTest),null,null,null
+
+
+# Created at 2024-09-06T14:19:20.830
+Unexpected IOException: 9,1,TestCases.createCaseTest,instanceClose(TestCases.createCaseTest),null,null,null
+
+
+# Created at 2024-09-06T14:19:20.974
+Unexpected IOException: 2,1,org.apache.maven.surefire.testng.TestNGDirectoryTestSuite,TestSuite,null,null,null
+
+

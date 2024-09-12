@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-27T19:19:06 IST" name="Suite" finished-at="2024-08-27T19:19:15 IST" duration-ms="9081">
+  <suite started-at="2024-09-11T21:03:12 IST" name="Suite" finished-at="2024-09-11T21:03:31 IST" duration-ms="19607">
     <groups>
     </groups>
-    <test started-at="2024-08-27T19:19:06 IST" name="Test" finished-at="2024-08-27T19:19:15 IST" duration-ms="9081">
-      <class name="TestCases.createCaseTest">
-        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.createCaseTest@5af3afd9]" started-at="2024-08-27T19:19:06 IST" name="hitAppUrl" finished-at="2024-08-27T19:19:14 IST" duration-ms="7728" status="PASS">
+    <test started-at="2024-09-11T21:03:12 IST" name="Test" finished-at="2024-09-11T21:03:31 IST" duration-ms="19607">
+      <class name="TestCases.CaseAllocation">
+        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.CaseAllocation@44ebcd03]" started-at="2024-09-11T21:03:12 IST" name="hitAppUrl" finished-at="2024-09-11T21:03:30 IST" duration-ms="18080" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hitAppUrl -->
-        <test-method signature="newCaseCreation()[pri:0, instance:TestCases.createCaseTest@5af3afd9]" started-at="2024-08-27T19:19:14 IST" name="newCaseCreation" finished-at="2024-08-27T19:19:15 IST" duration-ms="1222" status="PASS">
+        <test-method signature="allocationCheck()[pri:0, instance:TestCases.CaseAllocation@44ebcd03]" started-at="2024-09-11T21:03:30 IST" name="allocationCheck" finished-at="2024-09-11T21:03:31 IST" duration-ms="1284" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newCaseCreation -->
-        <test-method is-config="true" signature="instanceClose()[pri:0, instance:TestCases.createCaseTest@5af3afd9]" started-at="2024-08-27T19:19:15 IST" name="instanceClose" finished-at="2024-08-27T19:19:15 IST" duration-ms="95" status="PASS">
+        </test-method> <!-- allocationCheck -->
+        <test-method is-config="true" signature="instanceClose()[pri:0, instance:TestCases.CaseAllocation@44ebcd03]" started-at="2024-09-11T21:03:31 IST" name="instanceClose" finished-at="2024-09-11T21:03:31 IST" duration-ms="124" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- instanceClose -->
-      </class> <!-- TestCases.createCaseTest -->
+      </class> <!-- TestCases.CaseAllocation -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

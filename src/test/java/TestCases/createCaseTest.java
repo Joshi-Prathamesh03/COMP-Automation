@@ -5,7 +5,6 @@ import org.testng.annotations.Test;
 
 import ReusableCodeForTestCases.BaseTest;
 import pageObjectsFile.addNewCase;
-import pageObjectsFile.addNewCaseModal;
 
 public class createCaseTest extends BaseTest {
 

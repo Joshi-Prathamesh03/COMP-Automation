@@ -13,14 +13,14 @@ import org.testng.annotations.BeforeMethod;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjectsFile.addNewCase;
-import pageObjectsFile.addNewCaseModal;
+import pageObjectsFile.caseAllocation;
 import pageObjectsFile.login;
 
 public class BaseTest {
 	public WebDriver driver;
 	public login log;
 	public addNewCase addCase;
-//	public addNewCaseModal addCaseModal;
+	public caseAllocation allocation;
 
 	public WebDriver initDriver() throws IOException {
 		Properties prop = new Properties();
@@ -39,7 +39,7 @@ public class BaseTest {
 		} else {
 			System.out.println("Driver not found!!!!!!!!!!!!");
 		}
-		
+
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
@@ -50,9 +50,18 @@ public class BaseTest {
 	@BeforeMethod()
 	public login hitAppUrl() throws IOException {
 		driver = initDriver();
+		Properties prop = new Properties();
+		FileInputStream FIS = new FileInputStream(
+				System.getProperty("user.dir") + "\\src\\main\\java\\Resources\\GlobalData.properties");
+		prop.load(FIS);
+
 		log = new login(driver);
 		log.hitURL();
-		log.loginIntoApp("9158882210", "Technative#1");
+
+		String loginID = prop.getProperty("loginName");
+		String Password = prop.getProperty("password");
+		log.loginIntoApp(loginID, Password);
+
 		return log;
 
 	}
