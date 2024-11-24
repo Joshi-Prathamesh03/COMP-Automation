@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-09-12T16:19:35 IST" name="Suite" finished-at="2024-09-12T16:19:50 IST" duration-ms="15013">
+    <groups>
+    </groups>
+    <test started-at="2024-09-12T16:19:35 IST" name="Test" finished-at="2024-09-12T16:19:50 IST" duration-ms="15013">
+      <class name="TestCases.CaseAllocation">
+        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.CaseAllocation@72057ecf]" started-at="2024-09-12T16:19:35 IST" name="hitAppUrl" finished-at="2024-09-12T16:19:48 IST" duration-ms="12948" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitAppUrl -->
+        <test-method signature="allocationCheck()[pri:0, instance:TestCases.CaseAllocation@72057ecf]" started-at="2024-09-12T16:19:48 IST" name="allocationCheck" finished-at="2024-09-12T16:19:50 IST" duration-ms="1509" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- allocationCheck -->
+        <test-method is-config="true" signature="instanceClose()[pri:0, instance:TestCases.CaseAllocation@72057ecf]" started-at="2024-09-12T16:19:50 IST" name="instanceClose" finished-at="2024-09-12T16:19:50 IST" duration-ms="394" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- instanceClose -->
+      </class> <!-- TestCases.CaseAllocation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

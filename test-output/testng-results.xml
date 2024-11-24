@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-21T17:16:16 IST" name="Default suite" finished-at="2024-11-21T17:16:39 IST" duration-ms="23004">
+    <groups>
+    </groups>
+    <test started-at="2024-11-21T17:16:16 IST" name="Default test" finished-at="2024-11-21T17:16:39 IST" duration-ms="23004">
+      <class name="TestCases.createCaseTest">
+        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.createCaseTest@661972b0]" started-at="2024-11-21T17:16:16 IST" name="hitAppUrl" finished-at="2024-11-21T17:16:26 IST" duration-ms="9717" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- hitAppUrl -->
+        <test-method signature="newCaseCreation()[pri:0, instance:TestCases.createCaseTest@661972b0]" started-at="2024-11-21T17:16:26 IST" name="newCaseCreation" finished-at="2024-11-21T17:16:39 IST" duration-ms="13246" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newCaseCreation -->
+      </class> <!-- TestCases.createCaseTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
