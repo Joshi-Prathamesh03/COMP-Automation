@@ -15,12 +15,14 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 import pageObjectsFile.addNewCase;
 import pageObjectsFile.caseAllocation;
 import pageObjectsFile.login;
+import pageObjectsFile.quotation;
 
 public class BaseTest {
 	public WebDriver driver;
 	public login log;
 	public addNewCase addCase;
 	public caseAllocation allocation;
+	public quotation quote;
 
 	Properties prop = new Properties();
 	
