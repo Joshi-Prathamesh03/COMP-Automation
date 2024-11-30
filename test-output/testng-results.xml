@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-21T17:16:16 IST" name="Default suite" finished-at="2024-11-21T17:16:39 IST" duration-ms="23004">
+  <suite started-at="2024-11-30T15:12:03 IST" name="Default suite" finished-at="2024-11-30T15:12:17 IST" duration-ms="13806">
     <groups>
     </groups>
-    <test started-at="2024-11-21T17:16:16 IST" name="Default test" finished-at="2024-11-21T17:16:39 IST" duration-ms="23004">
-      <class name="TestCases.createCaseTest">
-        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.createCaseTest@661972b0]" started-at="2024-11-21T17:16:16 IST" name="hitAppUrl" finished-at="2024-11-21T17:16:26 IST" duration-ms="9717" status="PASS">
+    <test started-at="2024-11-30T15:12:03 IST" name="Default test" finished-at="2024-11-30T15:12:17 IST" duration-ms="13806">
+      <class name="TestCases.CaseAllocation">
+        <test-method is-config="true" signature="hitAppUrl()[pri:0, instance:TestCases.CaseAllocation@661972b0]" started-at="2024-11-30T15:12:03 IST" name="hitAppUrl" finished-at="2024-11-30T15:12:15 IST" duration-ms="11272" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- hitAppUrl -->
-        <test-method signature="newCaseCreation()[pri:0, instance:TestCases.createCaseTest@661972b0]" started-at="2024-11-21T17:16:26 IST" name="newCaseCreation" finished-at="2024-11-21T17:16:39 IST" duration-ms="13246" status="PASS">
+        <test-method signature="allocationCheck()[pri:0, instance:TestCases.CaseAllocation@661972b0]" started-at="2024-11-30T15:12:15 IST" name="allocationCheck" finished-at="2024-11-30T15:12:17 IST" duration-ms="2488" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- newCaseCreation -->
-      </class> <!-- TestCases.createCaseTest -->
+        </test-method> <!-- allocationCheck -->
+      </class> <!-- TestCases.CaseAllocation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

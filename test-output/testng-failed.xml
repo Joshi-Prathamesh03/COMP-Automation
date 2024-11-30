@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.createCaseTest">
+      <class name="TestCases.CaseAllocation">
         <methods>
+          <include name="bulkAlloationCheck"/>
           <include name="hitAppUrl"/>
-          <include name="newCaseCreation"/>
         </methods>
-      </class> <!-- TestCases.createCaseTest -->
+      </class> <!-- TestCases.CaseAllocation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
