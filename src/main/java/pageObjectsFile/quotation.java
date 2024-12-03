@@ -35,7 +35,7 @@ public class quotation extends BaseTest {
 	@FindBy(css = "button[title='Click to search']")
 	WebElement searchBtn;
 
-	@FindBy(xpath = "(//span[contains(text(),'Generate Renewal Quotation')])[1]")
+	@FindBy(xpath = "(//span[contains(text(),'Generate Renewal Quotation')])[2]")
 	WebElement genratorQuote;
 
 	@FindBy(css = "#previousPolicyPDF-0")
@@ -90,18 +90,8 @@ public class quotation extends BaseTest {
 
 	@SuppressWarnings("null")
 	public void quoteForm() throws InterruptedException {
-		if (previousPolicyView.isDisplayed()) {
-			String buttonText = previousPolicyView.getText().trim();
 
-			if (buttonText.isEmpty()) {
-				previousPolicy.sendKeys(
-						"C:\\Users\\Lenovo\\eclipse-workspace\\COMPTestngConversion\\src\\main\\java\\Resources\\VIN_Validation.png");
-			}
-		}else {
-			previousPolicy.sendKeys(
-					"C:\\Users\\Lenovo\\eclipse-workspace\\COMPTestngConversion\\src\\main\\java\\Resources\\VIN_Validation.png");
-		
-		}
+		previousPolicy.sendKeys(System.getProperty("user.dir") + "\\src\\main\\java\\Resources\\VIN_Validation.png");
 
 		String emailValue = email.getAttribute("value");
 		String altEmail = alternateEmail.getAttribute("value");
@@ -118,19 +108,8 @@ public class quotation extends BaseTest {
 		Select insuCompany = new Select(insCompany);
 		insuCompany.selectByIndex(2);
 
-		if (uploadedQuoteFile.isDisplayed()) {
-			String buttonText1 = uploadedQuoteFile.getText().trim();
-			if (buttonText1.isEmpty()) {
-				quotFile.sendKeys(
-						"C:\\Users\\Lenovo\\eclipse-workspace\\COMPTestngConversion\\src\\main\\java\\Resources\\VIN_Validation.png");
+		quotFile.sendKeys(System.getProperty("user.dir") + "\\src\\main\\java\\Resources\\VIN_Validation.png");
 
-			}
-		} else {
-			quotFile.sendKeys(
-					"C:\\Users\\Lenovo\\eclipse-workspace\\COMPTestngConversion\\src\\main\\java\\Resources\\VIN_Validation.png");
-
-		}
-		
 		quotIDV.sendKeys("1500000");
 		quotAmt.sendKeys("50000");
 		Thread.sleep(4000);
