@@ -1,10 +1,8 @@
 package pageObjectsFile;
 
 import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.Select;
@@ -121,6 +119,9 @@ public class quotation extends BaseTest {
 		// Actions action = new Actions(driver);
 //		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).sendKeys(Keys.BACK_SPACE).perform();
 
+	}
+	public void checkFileUplods() {
+		
 	}
 
 }
